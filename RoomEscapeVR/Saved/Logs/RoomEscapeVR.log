@@ -1,0 +1,781 @@
+﻿Log file open, 10/01/16 17:11:51
+LogInit:Display: Running engine for game: RoomEscapeVR
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-280142244) SRandInit(-280142243).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.068932
+OCULUS: Info: [CAPI] LibOVR module is located at D:\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.8.0(build = 278624) feature version = 0. Client runs version (prod = 1).1.8.0(build = 278624) feature version = 0
+OCULUS: Debug: [HMDState] Using default profile default
+OCULUS: Info: IAD changed to 70.0mm
+OCULUS: Debug: [SharedMemory] Creating factory
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.01-09.11.51:113][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.01-09.11.51:113][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.01-09.11.51:119][  0]LogInit: Computer: WILLIAMWSUN-PC2
+[2016.10.01-09.11.51:119][  0]LogInit: User: williamwsun
+[2016.10.01-09.11.51:119][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.01-09.11.51:119][  0]LogInit: High frequency timer resolution =3.507578 MHz
+[2016.10.01-09.11.51:119][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.10.01-09.11.51:119][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.01-09.11.51:119][  0]LogMemory: Process Physical Memory: 198.95 MB used, 198.95 MB peak
+[2016.10.01-09.11.51:119][  0]LogMemory: Process Virtual Memory: 202.72 MB used, 202.72 MB peak
+[2016.10.01-09.11.51:119][  0]LogMemory: Physical Memory: 6326.75 MB used, 16306.96 MB total
+[2016.10.01-09.11.51:119][  0]LogMemory: Virtual Memory: 571.50 MB used, 8388608.00 MB total
+[2016.10.01-09.11.51:149][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.01-09.11.51:521][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.01-09.11.51:552][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2016.10.01-09.11.51:552][  0]LogD3D11RHI:       8085/0/7897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.01-09.11.51:560][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.10.01-09.11.51:560][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.10.01-09.11.51:560][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.01-09.11.51:565][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.01-09.11.51:565][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.01-09.11.51:565][  0]LogWindows: EnumDisplayDevices:
+[2016.10.01-09.11.51:565][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2016.10.01-09.11.51:565][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2016.10.01-09.11.51:565][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2016.10.01-09.11.51:566][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2016.10.01-09.11.51:566][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.10.01-09.11.51:566][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.10.01-09.11.51:566][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.10.01-09.11.51:567][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
+[2016.10.01-09.11.51:567][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.10.01-09.11.51:567][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.10.01-09.11.51:567][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.10.01-09.11.51:567][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2016.10.01-09.11.51:567][  0]LogD3D11RHI:   Driver Version: 368.81 (internal:10.18.13.6881, unified:368.81)
+[2016.10.01-09.11.51:567][  0]LogD3D11RHI:      Driver Date: 7-10-2016
+[2016.10.01-09.11.51:567][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.01-09.11.51:575][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.01-09.11.51:591][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.01-09.11.51:591][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Intermediate/Shaders/WorkingDirectory/11440/).
+[2016.10.01-09.11.51:592][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/WILLIA~1/AppData/Local/Temp/UnrealShaderWorkingDir/9FE401864F4EBDA6DAAE8C9B64BD9E2E/'.
+[2016.10.01-09.11.51:592][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.01-09.11.52:429][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.01-09.11.52:437][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.01-09.11.52:447][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.01-09.11.52:458][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.01-09.11.52:466][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.01-09.11.52:473][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.01-09.11.52:480][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.01-09.11.52:486][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.01-09.11.52:493][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.01-09.11.52:499][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.01-09.11.52:506][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.01-09.11.52:519][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.01-09.11.52:519][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.01-09.11.52:520][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.01-09.11.52:540][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.01-09.11.52:546][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.01-09.11.52:552][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.01-09.11.52:558][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.01-09.11.52:565][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.01-09.11.52:565][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.01-09.11.52:636][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.01-09.11.52:683][  0]LogDerivedDataCache: Loaded boot cache 0.05s 62MB C:/Users/williamwsun/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.01-09.11.52:683][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/williamwsun/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.01-09.11.52:683][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.01-09.11.52:683][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.01-09.11.52:683][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.01-09.11.52:683][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.01-09.11.52:697][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.01-09.11.52:708][  0]LogDerivedDataCache: Using Local data cache path C:/Users/williamwsun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.01-09.11.52:855][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.01-09.11.52:856][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.01-09.11.52:984][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.01-09.11.52:984][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.01-09.11.52:984][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.01-09.11.53:187][  0]LogAssetRegistry: FAssetRegistry took 0.0203 seconds to start up
+[2016.10.01-09.11.53:204][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.012981 seconds
+[2016.10.01-09.11.53:208][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.01-09.11.53:208][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.10.01-09.11.53:208][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.01-09.11.53:215][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.01-09.11.53:375][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.01-09.11.53:375][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.01-09.11.53:941][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.01-09.11.54:127][  0]SourceControl: Info Source control is disabled
+[2016.10.01-09.11.54:154][  0]SourceControl: Info Source control is disabled
+[2016.10.01-09.11.54:161][  0]SourceControl: Info Source control is disabled
+[2016.10.01-09.11.54:168][  0]SourceControl: Info Source control is disabled
+[2016.10.01-09.11.54:342][  0]LogEngine: Initializing Engine...
+[2016.10.01-09.11.54:896][  0]LogHMD: SteamVR initialized.  Driver: oculus  Display: WMHD302L30105Q
+[2016.10.01-09.11.54:927][  0]LogHMD: SteamVR failed to initialize.  Err: 307
+[2016.10.01-09.11.54:928][  0]LogHMD: Oculus plugin initialized. Version: 4.12.5-3039270+++UE4+Release-4.12, LibOVR: 1.8.0, SDK: 1.3.2, built Jul  6 2016, 09:11:15
+[2016.10.01-09.11.55:058][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.01-09.11.55:064][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.01-09.11.55:076][  0]LogInit: FAudioDevice initialized.
+[2016.10.01-09.11.55:102][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/williamwsun/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.01-09.11.55:106][  0]LogInit: Texture streaming: Enabled
+[2016.10.01-09.11.55:144][  0]LogInit: Transaction tracking system initialized
+[2016.10.01-09.11.55:171][  0]BlueprintLog: New page: Editor Load
+[2016.10.01-09.11.55:307][  0]LocalizationService: Info Localization service is disabled
+[2016.10.01-09.11.55:402][  0]LogConsoleResponse:Display: 
+[2016.10.01-09.11.55:503][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.01-09.11.55:503][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.01-09.11.55:609][  0]LogFileCache: Scanning file cache for directory 'D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/' took 0.01s
+[2016.10.01-09.11.55:609][  0]SourceControl: Info Source control is disabled
+[2016.10.01-09.11.55:609][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.12/FeaturePacks/StarterContent.upack)
+[2016.10.01-09.11.55:617][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.10.01-09.11.55:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.10.01-09.11.55:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.10.01-09.11.55:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.10.01-09.11.55:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.10.01-09.11.55:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.10.01-09.11.55:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.10.01-09.11.55:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.10.01-09.11.55:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.10.01-09.11.55:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.10.01-09.11.55:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.10.01-09.11.55:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.10.01-09.11.55:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.10.01-09.11.55:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.10.01-09.11.55:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.10.01-09.11.55:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.10.01-09.11.55:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.10.01-09.11.55:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.10.01-09.11.55:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Fire01.uasset"
+[2016.10.01-09.11.55:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.10.01-09.11.55:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.10.01-09.11.55:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.10.01-09.11.55:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Light01.uasset"
+[2016.10.01-09.11.55:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.10.01-09.11.55:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Light02.uasset"
+[2016.10.01-09.11.55:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.10.01-09.11.55:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.10.01-09.11.55:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.10.01-09.11.55:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.10.01-09.11.55:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.10.01-09.11.55:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.10.01-09.11.55:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.10.01-09.11.55:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.10.01-09.11.55:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.10.01-09.11.55:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Steam01.uasset"
+[2016.10.01-09.11.55:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.10.01-09.11.55:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.10.01-09.11.55:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.10.01-09.11.55:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.10.01-09.11.55:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.10.01-09.11.55:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.10.01-09.11.55:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.10.01-09.11.55:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.10.01-09.11.55:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.10.01-09.11.55:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.10.01-09.11.55:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.10.01-09.11.55:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.10.01-09.11.55:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.10.01-09.11.55:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.10.01-09.11.55:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.10.01-09.11.55:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.10.01-09.11.55:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.10.01-09.11.55:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.10.01-09.11.55:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.10.01-09.11.55:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.10.01-09.11.55:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Maps/StarterMap.umap"
+[2016.10.01-09.11.55:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.10.01-09.11.55:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.10.01-09.11.55:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.10.01-09.11.55:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.10.01-09.11.55:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.10.01-09.11.55:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.10.01-09.11.55:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.10.01-09.11.55:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.10.01-09.11.55:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.10.01-09.11.55:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.10.01-09.11.55:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.10.01-09.11.55:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.10.01-09.11.55:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.10.01-09.11.55:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.10.01-09.11.55:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.10.01-09.11.55:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.10.01-09.11.55:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.10.01-09.11.55:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.10.01-09.11.55:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.10.01-09.11.55:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.10.01-09.11.55:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.10.01-09.11.55:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.10.01-09.11.55:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.10.01-09.11.55:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.10.01-09.11.55:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.10.01-09.11.55:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.10.01-09.11.55:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.10.01-09.11.55:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.10.01-09.11.55:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.10.01-09.11.55:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.10.01-09.11.55:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.10.01-09.11.55:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.10.01-09.11.55:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.10.01-09.11.55:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.10.01-09.11.55:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.10.01-09.11.55:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.10.01-09.11.55:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.10.01-09.11.55:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.10.01-09.11.55:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.10.01-09.11.55:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.10.01-09.11.55:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.10.01-09.11.55:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.10.01-09.11.55:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.10.01-09.11.55:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.10.01-09.11.55:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.10.01-09.11.55:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.10.01-09.11.55:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.10.01-09.11.55:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.10.01-09.11.55:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.10.01-09.11.55:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.10.01-09.11.55:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.10.01-09.11.55:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.10.01-09.11.55:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.10.01-09.11.55:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.10.01-09.11.55:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.10.01-09.11.55:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.10.01-09.11.55:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.10.01-09.11.55:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.10.01-09.11.55:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.10.01-09.11.55:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.10.01-09.11.55:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.10.01-09.11.55:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.10.01-09.11.55:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.10.01-09.11.55:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.10.01-09.11.55:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_Door.uasset"
+[2016.10.01-09.11.55:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.10.01-09.11.55:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.10.01-09.11.55:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.10.01-09.11.55:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.10.01-09.11.55:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.10.01-09.11.55:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.10.01-09.11.55:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.10.01-09.11.55:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.10.01-09.11.55:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.10.01-09.11.55:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.10.01-09.11.55:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.10.01-09.11.55:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.10.01-09.11.55:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.10.01-09.11.55:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.10.01-09.11.55:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.10.01-09.11.55:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.10.01-09.11.55:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.10.01-09.11.55:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.10.01-09.11.55:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.10.01-09.11.55:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.10.01-09.11.55:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.10.01-09.11.55:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.10.01-09.11.55:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.10.01-09.11.55:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.10.01-09.11.55:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.10.01-09.11.55:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.10.01-09.11.55:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.10.01-09.11.55:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.10.01-09.11.55:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.10.01-09.11.55:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.10.01-09.11.55:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.10.01-09.11.55:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.10.01-09.11.55:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.10.01-09.11.55:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.10.01-09.11.55:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.10.01-09.11.55:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.10.01-09.11.55:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.10.01-09.11.55:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.10.01-09.11.55:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.10.01-09.11.55:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.10.01-09.11.55:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.10.01-09.11.55:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.10.01-09.11.55:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.10.01-09.11.55:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.10.01-09.11.55:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.10.01-09.11.55:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.10.01-09.11.55:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.10.01-09.11.55:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.10.01-09.11.55:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.10.01-09.11.55:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.10.01-09.11.55:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.10.01-09.11.55:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.10.01-09.11.55:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.10.01-09.11.55:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.10.01-09.11.56:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.10.01-09.11.56:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.10.01-09.11.56:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.10.01-09.11.56:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.10.01-09.11.56:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.10.01-09.11.56:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.10.01-09.11.56:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.10.01-09.11.56:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.10.01-09.11.56:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.10.01-09.11.56:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.10.01-09.11.56:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.10.01-09.11.56:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.10.01-09.11.56:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.10.01-09.11.56:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.10.01-09.11.56:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.10.01-09.11.56:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.10.01-09.11.56:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.10.01-09.11.56:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.10.01-09.11.56:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.10.01-09.11.56:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.10.01-09.11.56:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.10.01-09.11.56:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.10.01-09.11.56:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.10.01-09.11.56:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.10.01-09.11.56:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.10.01-09.11.56:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.10.01-09.11.56:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.10.01-09.11.56:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.10.01-09.11.56:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.10.01-09.11.56:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.10.01-09.11.56:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.10.01-09.11.56:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.10.01-09.11.56:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.10.01-09.11.56:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.10.01-09.11.56:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.10.01-09.11.56:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.10.01-09.11.56:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.10.01-09.11.56:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.10.01-09.11.56:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.10.01-09.11.56:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.10.01-09.11.56:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.10.01-09.11.56:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.10.01-09.11.56:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.10.01-09.11.56:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.10.01-09.11.56:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.10.01-09.11.56:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.10.01-09.11.56:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.10.01-09.11.56:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.10.01-09.11.56:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.10.01-09.11.56:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.10.01-09.11.56:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.10.01-09.11.56:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.10.01-09.11.56:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.10.01-09.11.56:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.10.01-09.11.56:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.10.01-09.11.56:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.10.01-09.11.56:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.10.01-09.11.56:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.10.01-09.11.56:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.10.01-09.11.56:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.10.01-09.11.56:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.10.01-09.11.56:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.10.01-09.11.56:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.10.01-09.11.56:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.10.01-09.11.56:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.10.01-09.11.56:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.10.01-09.11.56:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.10.01-09.11.56:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.10.01-09.11.56:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.10.01-09.11.56:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.10.01-09.11.56:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.10.01-09.11.56:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.10.01-09.11.56:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.10.01-09.11.56:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.10.01-09.11.56:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.10.01-09.11.56:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.10.01-09.11.56:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.10.01-09.11.56:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.10.01-09.11.56:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.10.01-09.11.56:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.10.01-09.11.56:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.10.01-09.11.56:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.10.01-09.11.56:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.10.01-09.11.56:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.10.01-09.11.56:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.10.01-09.11.56:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.10.01-09.11.56:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.10.01-09.11.56:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.10.01-09.11.56:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.10.01-09.11.56:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.10.01-09.11.56:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.10.01-09.11.56:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.10.01-09.11.56:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.10.01-09.11.56:596][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.10.01-09.11.56:645][  0]LogSavePackage: Save=7.90ms
+[2016.10.01-09.11.56:645][  0]LogSavePackage: Moving 'D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Saved/Floor_400x400CFF372FF46D54BD05AA6609506BF623D.tmp' to 'D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.10.01-09.11.56:646][  0]LogSavePackage:Display: Finished SavePackage D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.10.01-09.11.56:646][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.10.01-09.11.56:647][  0]Cmd: MAP LOAD FILE="D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.01-09.11.56:647][  0]LightingResults: New page: Lighting Build
+[2016.10.01-09.11.56:650][  0]MapCheck: New page: Map Check
+[2016.10.01-09.11.56:650][  0]LightingResults: New page: Lighting Build
+[2016.10.01-09.11.57:030][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.10.01-09.11.57:354][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.10.01-09.11.57:646][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2016.10.01-09.11.57:925][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.10.01-09.11.58:196][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.10.01-09.11.58:629][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.10.01-09.11.59:054][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2016.10.01-09.11.59:310][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2016.10.01-09.11.59:349][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.10.01-09.11.59:536][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.10.01-09.11.59:708][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2016.10.01-09.11.59:883][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.10.01-09.12.00:052][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.10.01-09.12.00:248][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.10.01-09.12.00:437][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2016.10.01-09.12.00:587][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2016.10.01-09.12.00:591][  0]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT)
+[2016.10.01-09.12.00:614][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2016.10.01-09.12.00:753][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.10.01-09.12.00:886][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2016.10.01-09.12.01:026][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.10.01-09.12.01:143][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.10.01-09.12.01:312][  0]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
+[2016.10.01-09.12.01:478][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT)
+[2016.10.01-09.12.01:620][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8)
+[2016.10.01-09.12.01:689][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8)
+[2016.10.01-09.12.01:748][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8)
+[2016.10.01-09.12.01:812][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8)
+[2016.10.01-09.12.01:874][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8)
+[2016.10.01-09.12.01:927][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8)
+[2016.10.01-09.12.01:934][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2016.10.01-09.12.01:991][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2016.10.01-09.12.02:286][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.10.01-09.12.04:319][  0]LogTexture:Display: Building textures: UE4_LOGO_CARD (AutoDXT)
+[2016.10.01-09.12.04:484][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.10.01-09.12.04:790][  0]LogTexture:Display: Building textures: FirstPersonCrosshair (AutoDXT)
+[2016.10.01-09.12.04:912][  0]LogTexture:Display: Building textures: T_FPGun_N (BC5)
+[2016.10.01-09.12.05:240][  0]LogTexture:Display: Building textures: T_FPGun_M (AutoDXT)
+[2016.10.01-09.12.05:735][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.10.01-09.12.06:162][  0]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2016.10.01-09.12.08:301][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2016.10.01-09.12.08:723][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.10.01-09.12.10:708][  0]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2016.10.01-09.12.10:908][  0]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2016.10.01-09.12.11:311][  0]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2016.10.01-09.12.11:755][  0]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2016.10.01-09.12.13:758][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.10.01-09.12.13:773][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.01-09.12.13:774][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.01-09.12.13:806][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.22ms to complete.
+[2016.10.01-09.12.13:806][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 17.158
+[2016.10.01-09.12.16:931][  0]LogCollectionManager: Loaded 0 collections in 0.002848 seconds
+[2016.10.01-09.12.16:997][  0]LogFileCache: Scanning file cache for directory 'D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Saved/Collections/' took 0.01s
+[2016.10.01-09.12.16:997][  0]LogFileCache: Scanning file cache for directory 'D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/Developers/williamwsun/Collections/' took 0.01s
+[2016.10.01-09.12.16:997][  0]LogFileCache: Scanning file cache for directory 'D:/Users/williamwsun/Documents/Unreal Projects/room-escape-vr/RoomEscapeVR/Content/Collections/' took 0.01s
+[2016.10.01-09.12.16:997][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.10.01-09.12.17:006][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2047 classes and 369 folders.
+[2016.10.01-09.12.17:010][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.01-09.12.17:010][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.01-09.12.17:010][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.10.01-09.12.17:015][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.01-09.12.17:040][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.10.01-09.12.17:044][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.10.01-09.12.17:056][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.01-09.12.17:060][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.01-09.12.17:085][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.01-09.12.17:086][  0]LogLoad: Full Startup: 26.57 seconds (BP compile: 0.10 seconds)
+[2016.10.01-09.12.17:086][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.01-09.12.17:095][  0]LogOcInput: OculusInput pre-init called
+[2016.10.01-09.12.17:107][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.8.0
+[2016.10.01-09.12.17:152][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.01-09.12.17:261][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2016.10.01-09.12.17:297][  1]LogAssetRegistry: Asset discovery search completed in 24.1278 seconds
+[2016.10.01-09.12.17:297][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.01-09.12.17:297][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2016.10.01-09.12.18:588][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.10.01-09.13.02:883][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.10.01-09.13.02:883][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.01-09.13.02:885][140]LogHMD: New ovr session is created
+[2016.10.01-09.13.02:885][140]LogHMD: HMD Oculus Rift CV1, res = 2160 x 1200
+[2016.10.01-09.13.02:885][140]LogApp: UseVRFocus has changed to 1
+[2016.10.01-09.13.02:885][140]LogApp: HasVRFocus has changed to 1
+[2016.10.01-09.13.02:885][140]LogApp: UseVRFocus has changed to 0
+[2016.10.01-09.13.02:885][140]LogApp: HasVRFocus has changed to 0
+[2016.10.01-09.13.02:886][140]PIE: New page: PIE session: FirstPersonExampleMap (Oct 2, 2016, 1:13:02 AM)
+[2016.10.01-09.13.02:886][140]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.10.01-09.13.02:909][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022607s)
+[2016.10.01-09.13.02:909][140]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.10.01-09.13.02:909][140]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2016.10.01-09.13.02:910][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023591s)
+[2016.10.01-09.13.02:939][140]LogApp: UseVRFocus has changed to 1
+[2016.10.01-09.13.02:939][140]LogApp: HasVRFocus has changed to 1
+[2016.10.01-09.13.02:939][140]LogApp: UseVRFocus has changed to 0
+[2016.10.01-09.13.02:939][140]LogApp: HasVRFocus has changed to 0
+[2016.10.01-09.13.02:944][140]LogInit: XAudio2 using '耳机 (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.01-09.13.02:950][140]LogInit: FAudioDevice initialized.
+[2016.10.01-09.13.03:030][140]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.10.01-09.13.03:034][140]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.10.01-17.13.03
+[2016.10.01-09.13.03:034][140]LogWorld: Bringing up level for play took: 0.003425
+[2016.10.01-09.13.03:040][140]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2016.10.01-09.13.03:067][140]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.064
+[2016.10.01-09.13.03:068][140]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.10.01-09.13.03:068][140]LogApp: UseVRFocus has changed to 1
+[2016.10.01-09.13.03:093][140]LogHMD: Reallocation of eye buffer was requested
+[2016.10.01-09.13.03:097][140]LogHMD: Allocated a new swap texture set (size 2704 x 1600, mipcount = 1), 0x000000004B0B2C20
+[2016.10.01-09.13.03:123][140]LogHMD: Allocated a new mirror texture (size 1280 x 720)
+[2016.10.01-09.13.03:123][140]LogRenderer: Reallocating scene render targets to support 2704x1600 (Frame:2054).
+[2016.10.01-09.13.03:204][142]LogApp: HasVRFocus has changed to 1
+[2016.10.01-09.13.03:208][143]LogApp: HasVRFocus has changed to 0
+[2016.10.01-09.13.25:705][741]LogApp: HasVRFocus has changed to 1
+[2016.10.01-09.14.22:893][869]LogApp: HasVRFocus has changed to 0
+[2016.10.01-10.34.23:471][821]LogApp: HasVRFocus has changed to 1
+[2016.10.01-10.34.23:738][846]LogApp: HasVRFocus has changed to 0
+[2016.10.01-10.34.33:899][760]LogApp: HasVRFocus has changed to 1
+[2016.10.01-10.35.35:890][654]LogApp: HasVRFocus has changed to 0
+[2016.10.01-10.35.57:428][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.10.01-11.51.17:532][661]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.10.01-11.51.17:543][661]LogHMD: Destroying ovr session
+[2016.10.01-11.51.17:543][661]LogHMD: Freeing textureSet 0x000000004B0B2C20
+[2016.10.01-11.51.17:568][661]LogApp: UseVRFocus has changed to 0
+[2016.10.01-11.51.17:689][661]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.10.01-11.51.31:808][376]Cmd: QUIT_EDITOR
+[2016.10.01-11.51.31:856][376]LogExit: Preparing to exit.
+[2016.10.01-11.51.32:450][376]LogExit: Editor shut down
+[2016.10.01-11.51.32:451][376]LogExit: Transaction tracking system shut down
+[2016.10.01-11.51.32:560][376]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.01-11.51.32:560][376]LogExit: Object subsystem successfully closed.
+[2016.10.01-11.51.32:601][376]LogD3D11RHI: Shutdown
+[2016.10.01-11.51.32:601][376]LogD3D11RHI: CleanupD3DDevice
+[2016.10.01-11.51.32:677][376]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.01-11.51.32:713][376]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2016.10.01-11.51.32:713][376]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.10.01-11.51.32:713][376]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.10.01-11.51.32:713][376]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.10.01-11.51.32:713][376]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.10.01-11.51.32:713][376]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.01-11.51.32:714][376]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.01-11.51.33:461][376]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.01-11.51.33:491][376]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.01-11.51.33:491][376]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.01-11.51.33:491][376]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.01-11.51.33:491][376]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.01-11.51.33:491][376]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.01-11.51.33:491][376]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.01-11.51.33:491][376]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.01-11.51.33:491][376]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.01-11.51.33:491][376]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.01-11.51.33:492][376]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.01-11.51.33:678][376]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.01-11.51.33:679][376]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.01-11.51.33:679][376]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.01-11.51.33:679][376]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.01-11.51.33:679][376]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.01-11.51.33:679][376]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.01-11.51.33:679][376]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.01-11.51.33:679][376]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.01-11.51.33:679][376]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.01-11.51.33:680][376]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.01-11.51.33:680][376]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.01-11.51.33:680][376]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.01-11.51.33:780][376]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.01-11.51.33:781][376]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.01-11.51.33:781][376]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.01-11.51.33:781][376]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.01-11.51.33:781][376]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.01-11.51.33:781][376]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.01-11.51.33:781][376]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.01-11.51.33:783][376]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.01-11.51.33:783][376]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.01-11.51.33:783][376]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.01-11.51.33:783][376]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.01-11.51.33:783][376]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.01-11.51.33:783][376]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.01-11.51.33:783][376]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.01-11.51.33:894][376]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.01-11.51.33:894][376]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.01-11.51.33:894][376]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.01-11.51.33:894][376]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.01-11.51.33:908][376]LogDerivedDataCache: Shutdown
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.01-11.51.33:909][376]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.01-11.52.17:912][376]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.01-11.52.17:912][376]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.01-11.52.17:914][376]LogHMD: Oculus shutdown.
+[2016.10.01-11.52.17:914][376]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.01-11.52.17:914][376]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.01-11.52.17:914][376]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.01-11.52.17:914][376]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.01-11.52.17:914][376]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.01-11.52.17:920][376]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.01-11.52.17:920][376]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.01-11.52.17:920][376]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.01-11.52.17:920][376]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.01-11.52.17:920][376]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.01-11.52.17:920][376]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.01-11.52.17:920][376]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.01-11.52.17:920][376]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.01-11.52.17:920][376]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.01-11.52.17:920][376]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.01-11.52.17:924][376]LogExit: Exiting.
+[2016.10.01-11.52.17:949][376]Log file closed, 10/01/16 19:52:17
